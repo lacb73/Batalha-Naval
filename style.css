@@ -1,0 +1,91 @@
+body {
+    background-color: #e6f0ff;
+}
+
+#title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+td {
+	border: 1px solid black;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+
+#player-board td {
+	background-color: #9acd32;
+}
+
+#enemy-board td {
+	background-color: #add8e6;
+	cursor: pointer;
+}
+
+.hit {
+	background-color: red;
+}
+
+.miss {
+	background-color: gray;
+}
+
+.button {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgb(254, 254, 254);
+    background: linear-gradient(to bottom, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 51%, rgba(209, 209, 209, 1) 52%, rgba(226, 226, 226, 1) 99%);
+    box-sizing: border-box;
+    float: left;
+    margin: 0 1%;
+    padding: 10px;
+    text-align: center;
+    width: 31%;
+}
+
+.button:hover {
+    background: rgb(226, 226, 226);
+    background: linear-gradient(to bottom, rgba(226, 226, 226, 1) 0%, rgba(219, 219, 219, 1) 51%, rgba(209, 209, 209, 1) 52%, rgba(254, 254, 254, 1) 100%);
+}
+
+.button img {
+    height: auto;
+    width: 42px;
+}
+
+button {
+    color: #360;
+}
+
+#result {
+    background: #fac038;
+    border-radius: 5px;
+    color: #000;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#computador,
+#jogador {
+    text-align: center;
+    color: #4d2a0c;
+    font-weight: bold;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Batalha Naval</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="title">BATALHA NAVAL</div>
+    <p align="center"><label for="nickname">Insira o nome do jogador:</label>
+	<input type="text" id="nickname" name="nickname">
+	<button id="generate-nickname-btn">Gerar Nickname</button>
+    </p>
+       
+	<div class="board">
+		<h2>Seu tabuleiro:</h2>
+		<table id="player-board">
+			<!-- Adicione células para o tabuleiro do jogador aqui -->
+            <tr>
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <!-- Adicione mais linhas e células aqui, se necessário -->
+		</table>
+		<h2>Tabuleiro do adversário:</h2>
+		<table id="enemy-board">
+			<!-- Adicione células para o tabuleiro do adversário aqui -->
+            <tr>
+                <td></td>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+                <td class="cell"></td>
+            </tr>
+            <!-- Adicione mais linhas e células aqui, se necessário -->
+		</table>
+	</div>
+    <div id="jogador">
+        <div id="nick_jogador" align="center">JOGADOR</div>
+        <div id="cria" class="button"><img src='submarino.png' /><br />Criar o Tabuleiro</div>
+        <div id="preenche" class="button"><img src='navio.png' /><br />Preenche Tabuleiro</div>
+        <div id="ataca" class="button"><img src='porta-avioes.png' /><br />Ataca uma Posição</div>
+
+    </div>
+    <script>
+        
+        //Exercício 1.a
+        let nickname = '';
+        //TODO
+
+
+        //Exercício 1.b - cria o tabuleiro só com água
+        function createBoard(rows, cols) {
+            //TODO
+
+
+        }
+
+        //Exercício 1.c - Preenche o tabuleiro do adversário
+        function placeShip(board, row, col) {
+            //TODO
+
+
+        }
+
+        // Exercício 1.d - Ataca uma posição específica no tabuleiro
+        function attack(board, row, col) {
+            //TODO
+
+
+
+        }
+
+        //Exercício 1.e - Manipular os 3 botões
+
+
+        //Exercício 1.f - Guardar e mostrar resultados - array de objetos
+
+        
+    </script>
+	<!-- <script src="script.js"></script> -->
+</body>
+</html>
